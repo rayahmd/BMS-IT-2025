@@ -3,16 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Belajar Tailwind</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <title>website imoets</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
-    .font-poppins {
+    body {
       font-family: 'Poppins', sans-serif;
     }
   </style>
 </head>
-<body>
-    
+<body class="bg-blue-700">
+  <nav class="flex items-center px-6 h-20 bg-blue-800 justify-center w-1/2 mx-auto rounded-lg mt-5 shadow-lg">
+    <div class="space-x-6 font-semibold text-lg">
+      <a href="#" class="text-white hover:text-yellow-400 transition">Home</a>
+      <a href="#" class="text-white hover:text-yellow-400 transition">About</a>
+      <a href="#" class="text-white hover:text-yellow-400 transition">Services</a>
+      <a href="#" class="text-white hover:text-yellow-400 transition">Contact</a>
+    </div>
+  </nav>
+
+  <div class="w-full flex items-center justify-evenly px-16 mt-16 text-white">
+    <div class="flex flex-col space-y-3">
+      <p class="font-light text-2xl">Hi, I am</p>
+      <p class="text-yellow-400 text-4xl font-semibold">dudul Imoets</p>
+      <p class="font-bold text-3xl">Frontend Developer</p>
+      <p class="text-lg">Nice to meet y'all</p>
+      <button class="bg-yellow-500 text-blue-900 font-semibold px-5 py-2 rounded-lg w-fit hover:bg-yellow-400 transition">
+        <a href="">Contact me</a>
+      </button>
+    </div>
+    <div class="ml-10">
+      <img src="https://i.pinimg.com/222x/c6/7e/6f/c67e6f2828840fa7e93056c5f9e2c1db.jpg" alt="Profile Photo" class="rounded-full shadow-lg border-4 border-yellow-400 w-60 h-60 object-cover">
+    </div>
+  </div>
+
 </body>
 </html>
